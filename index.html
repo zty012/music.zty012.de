@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music List</title>
+  </head>
+  <body>
+    <s-page theme="auto" id="app">
+      <div>
+        <s-menu style="max-width: 280px">
+          <div slot="label">铃声</div>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=1049199.mp3"
+          >
+            预备铃: Overture (William Tell)
+          </s-menu-item>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=26090122.mp3"
+          >
+            上课铃: 杜鹃圆舞曲
+          </s-menu-item>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=5331930.mp3"
+          >
+            下课铃: Stepping On The Rainy Street
+          </s-menu-item>
+        </s-menu>
+        <s-menu style="max-width: 280px">
+          <div slot="label">音乐</div>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=1386259779.mp3"
+          >
+            午自习: 远方的寂静
+          </s-menu-item>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=1944650090.mp3"
+          >
+            午自习: 你的微笑
+          </s-menu-item>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=1351183637.mp3"
+          >
+            午自习: 日暮里
+          </s-menu-item>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=422429425.mp3"
+          >
+            午自习: 青石巷
+          </s-menu-item>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=1906045793.mp3"
+          >
+            午自习: 漫天星光
+          </s-menu-item>
+          <s-menu-item
+            data-src="http://music.163.com/song/media/outer/url?id=1931264432.mp3"
+          >
+            午自习: 君だけの晴れ
+          </s-menu-item>
+        </s-menu>
+        <s-menu style="max-width: 280px">
+          <div slot="label">???</div>
+          <s-menu-item
+            data-src="https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4"
+          >
+            Never Gonna Give You Up
+          </s-menu-item>
+        </s-menu>
+      </div>
+      <video controls></video>
+    </s-page>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
